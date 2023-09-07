@@ -1,0 +1,42 @@
+Gitlens
+Git graph
+black formatter
+autoDocstring
+Isort
+Path Intellisense
+
+
+pipenv install 
+pipenv install -dev
+pipenv shell  : 가상환경으로 들어감
+
+pre-commit sample-config
+pre-commit sample-config > .pre-commit-config.yaml
+
+pipfile에서 yaml 99~복사해서
+.pre-commit-config 에 붙여넣은 다음
+pre-commit install
+
+git status 
+작업 단위로 commit이 이뤄져야함
+1. git add .pre-commit-config.yaml
+빨간불 떴을 때?
+-> pre-commit-config에 수정사항이 발생한 것 
+다시 해주면 됨
+
+2. git add Pipfile
+3. git add Pipfile.lock
+git status 로 확인 후
+git commit -m "Add Pipfile"
+
+git push origin
+
+"지옥에서 온 깃" (사이언스파크 전자도서관) 
+
+transformer에서는 아래 세 개가 포함되어야 함
+1. transformer의 이름, 
+2. 어떤 function transformer가 되는지 (실제 구현하는 거)
+3. 적용할 column
+
+TargetEncoder는 자체로 fit, tranform을 가지고 잇음
+그래서 functiontransformer 안써도 됨
