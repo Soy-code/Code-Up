@@ -1,0 +1,30 @@
+github.com/codespaces -> 스펙업
+
+mlflow와 bentoML을 사용하기 위한 포트를 열어줘야함
+터미널 -> 포트 3000, 5000
+
+mlflow ui 
+->브라우저에서 열기 누르기 (mlflow 들어가는 법)
+ 
+experiments: 실험들
+실험에 대한 결과는 옆에 뜸
+mlflow 끄려면 코드스페이스 터미널에서 ctrl + C
+
+
+_x : 숨기고 싶은 변수, 중간 과정의 변수.
+__x : 실질적인 convention. 클래스에서 method를 숨길 때 씀. 
+     클래스 내에 변수를 수정 못하게 함 
+x_: 사이킷런의 convention. 모델에 적합시켜야만 나오는 결과에 대함. 
+   eg. .feature_importance -> feature_importances_ : fit 시키고 -> 결과를 출력하는 것
+__x__:  ...
+
+
+
+mlflow 
+full path 가 enst uri 임
+
+sys.__excepthook__ : 예외처리
+
+
+crontab : 스케줄러
+채

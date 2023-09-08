@@ -1,0 +1,6 @@
+async: 비동기처리
+await: 예약어
+
+bentofile.yaml 만들기
+touch bentofile.yaml
+
