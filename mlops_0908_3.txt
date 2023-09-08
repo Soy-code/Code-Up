@@ -1,0 +1,11 @@
+github -> new
+lgcns-bike-sharing
+
+public
+.gitignore templete (python)
+
+code -> codespace tab -> 
+
+cat prediction_drift.json : 출력
+cat prediction_drift.json | grep 'FAIL'  : 
+cat prediction_drift.json | jq '.Status'
